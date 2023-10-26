@@ -1,0 +1,19 @@
+#section5 {
+    width: 100%;
+    background: #fff;
+    padding: 90px 0 0 0;
+    .container {
+        width: 1050px;
+        margin: 0 auto;
+        .content {
+            width: 100%;
+            a {
+                display: block;
+                width: 100%;
+                img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}

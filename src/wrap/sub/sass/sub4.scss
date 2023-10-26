@@ -1,0 +1,44 @@
+#sub4 {
+    width: 100%;
+    background: #fff;
+    #section2 {
+        width: 100%;
+        .container {
+            width: 100%;
+            max-width: 1068px;
+            margin: 0 auto;
+            .title {
+                width: auto;
+                margin: 0 9px;
+                h2 {
+                    font-size: 24px;
+                    text-align: center;
+                    color: #000;
+                    font-weight: 600;
+                }
+            }
+            .content {
+                width: 100%;
+                .right {
+                    width: 100%;
+                    ul {
+                        width: 100%;
+                        display: flex;
+                        flex-flow: row wrap; // 
+                        li {
+                            width: 100%;
+                            .col-gap {
+                                width: auto;
+                                margin: 0 9px 10px 9px;
+                                div {
+                                    width: 100%;
+                                    
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

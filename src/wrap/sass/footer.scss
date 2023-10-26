@@ -1,0 +1,185 @@
+#footer {
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    border-top:  1px solid #efefef;
+    padding-top: 30px;
+    .row {
+        width: 100%;
+        .container {
+            max-width: 1050px;
+            margin: 0 auto;
+            width: 100%;
+            .content {
+                width: auto;
+                margin: 0 15px; // 이렇게 해야 넓이가 정확히 됨
+            }
+        }
+    &.row1 {
+        margin-bottom: 40px;
+            .container {
+                .content {
+                    display: flex;
+                    .left-box {
+                        width: 50%;
+            h3 {
+                font-size: 20px;
+                color: #333;
+                font-weight: 600;
+                padding-bottom: 20px;
+            }
+            h2 {
+                a {
+                    font-size: 28px;
+                    color: #333;
+                    font-weight: 600;
+                }
+                em {
+                    margin-left: 10px;
+                    font-size: 16px;
+                    color: #333;
+                    font-weight: 500;
+                }
+            }
+            > div {
+                padding: 30px 0 20px 0;
+                ul {
+                    li {
+                        display: flex;
+                        padding-bottom: 20px;
+                        .left {
+                            padding-right: 17px;
+                            a {
+                                display: flex;
+                                width: 140px;
+                                height: 40px;
+                                border: 1px solid #ccc;
+                                justify-content: center;
+                                align-items : center;
+                                color: #333;
+                                font-weight: 700;
+                            }
+                        }
+                        .right {
+                            line-height: 16px; 
+                            color: #999;
+                        }
+
+                    }
+                }
+            }
+            p {
+                color: #999;
+                font-size: 12px;
+                a {
+                    color: #999;
+                }
+            }
+        }
+    }
+}
+        .right-box {
+            width: 50%;
+            ul {
+                li {
+                    &:nth-child(1) {
+                        a {
+                            font-size: 13px;
+                            color: #333;
+                            margin: 0 13px 0 0 ;
+                            font-weight: 500;
+                        }
+                    }
+                    &:nth-child(2) {
+                        padding: 30px 0;
+                        font-size: 12px;
+                        line-height: 130%;
+                        color: #999;
+                        a {
+                            color: #5f0080;
+                            font-weight: 500;
+                        }
+                        i {
+                            margin: 0 7px;
+                        }
+                        address {
+                            display: inline;
+                        }
+                    }
+                    &:nth-child(3) {
+                        a {
+                            display: inline-block;
+                            width: 30px;
+                            height: 30px; // 스타벅스 포트폴리오 만들 때 헤더 돋보기 이렇게 해보기 a 태그에다가 
+                            margin-right: 10px;
+                            border-radius: 50%;
+                            overflow: hidden;
+                            img {
+                                width: 100%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    &.row2 {
+        .container {
+            width: 100%;
+            max-width: 1170px;
+            margin: 0 auto;
+            .content {
+                margin: 0 15px;
+                border-top : 1px solid #ddd;
+                padding: 25px 0;
+                ul {
+                    display: flex;
+                    justify-content: space-between; //고르게
+                    align-items: center; 
+                    li {
+                        display: inline-flex; //아이콘과 넓이에 따라서 
+                        .icon-box {
+                            
+                            img {
+                                width: 100%;
+                            }
+                        }
+                        &:nth-child(3) { 
+                        .icon-box{
+                            img {
+                                height: 32px;
+                            }
+                        }
+                    }
+                        .text-box {
+                            padding-left: 10px;
+                            font-size: 10px;
+                            color: #999;
+                            line-height: 130%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    &.row3 {
+        padding: 20px 0 30px 0;
+        background: #f7f7f7;
+        .container {
+            .content {
+                text-align: center;
+                p {
+                    font-size: 10px;
+                    color: #999;
+                    &:nth-child(1) {
+                        line-height: 160%;
+                    }
+                    &:nth-child(2) {
+                        line-height: 390%;
+                    }
+                }
+            }
+        }
+    }
+    }
+}

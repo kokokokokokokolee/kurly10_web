@@ -1,0 +1,142 @@
+#section3 {
+    width: 100%;
+    background: #fff;
+    padding: 90px 0;
+    .slide-container {
+        width: 1050px;
+        margin: 0 auto;
+        .content {
+            width: 100%;
+            .slide-wrap {
+                width: 100%;
+                display: flex;
+            .slide {
+                width: 267px;
+                &.slide1 {
+                    h2 {
+                        font-size: 28px;
+                        font-weight: 500;
+                    }
+                    p {
+                        font-size: 16px;
+                        font-weight: 400;
+                        color: #999;
+                    }
+                    div {
+                        padding: 30px 0 40px 0;
+                        font: 'monosants';
+                        img {
+                            width: auto;
+                        }
+                        strong {
+                            font-size: 32px;
+                            color: #333;
+                            font-weight: 800;
+                            font-family: 'Roboto';
+                            letter-spacing: -0.5px;
+                        }
+                        i {
+                            font-size:32;
+                            color:#333;
+                            font-weight: 800;
+                            margin: 0 2px;
+                        }
+                    }
+                    h3 {
+                        font-size: 14px;
+                    }
+                }
+                .gap {
+                    margin: 0 18px 0 0;
+                    .img-box {
+                        width: 100%;
+                        position: relative;
+                        z-index: 1;
+                        > img {
+                            width: 100%;
+                        }
+                        > span {
+                            z-index: 2;
+                            position: absolute;
+                            bottom: 20px;
+                            right: 20px;
+                            width: 45px;
+                            height: 45px;
+                            img {
+                                width: 100%;
+                            }
+                        }
+                    }
+                    .caption {
+                        line-height: 180%;
+                        padding: 15px 0 0 0;
+                        h3 {
+                            color: #333;
+                            font-size: 16px;
+                            font-weight: 500;
+                        }
+                        h4 {
+                            strong {
+                                color: #fa622f;
+                                font-weight: 600;
+                                margin-right: 10px;
+                                font-size: 16px;
+                            }
+                            em {
+
+                                color: #333;
+                                font-size: 16px;
+                                font-weight: 600;
+                            }
+                            span {
+                                color: #999;
+                                font-size: 14px;
+                                font-weight: 500;
+                                text-decoration: line-through; // 가운데 선
+                            }
+                        }
+                        p {
+                            img {
+                                width: 15px;
+                                height: 15px;
+                                margin-right: 3px;
+                            }
+                            span {
+                                font-size: 12px;
+                                color: #999;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+            }
+            .prev-arrow-button {
+                    position: absolute;
+                    z-index: 2;
+                    top: 127.367px ;
+                    left:-30px ;
+                    width: 60px;
+                    height: 60px;
+                    img {
+                        width: 100%;
+                        height: 100%;
+                    }
+            }
+            .next-arrow-button {
+                    position: absolute;
+                    z-index: 2;
+                    top: 127.367px ;
+                    right:-30px ;
+                    width: 60px;
+                    height: 60px;
+                    img {
+                        transform: rotate(180deg);
+                        width: 100%;
+                        height: 100%;
+
+                    }
+            }
+}
+        
